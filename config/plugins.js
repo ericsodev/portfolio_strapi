@@ -4,9 +4,6 @@ module.exports = ({ env }) => ({
       jwtSecret: env("JWT_SECRET"),
     },
   },
-  "netlify-deployments": {
-    enabled: true,
-  },
   upload: {
     config: {
       provider: "cloudinary",
