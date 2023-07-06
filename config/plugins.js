@@ -33,7 +33,7 @@ module.exports = ({ env }) => ({
     },
   },
   transformer: {
-    enabled: "true",
+    enabled: true,
     config: {
       responseTransforms: {
         removeAttributesKey: true,
